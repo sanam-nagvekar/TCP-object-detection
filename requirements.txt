@@ -1,0 +1,3 @@
+numpy
+aiortc
+opencv-contrib-python
