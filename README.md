@@ -1,6 +1,5 @@
-This project directory contains my solution to the Nimble Programming Challenge.
-The directory contains a server.py file and a client.py file along with their 
-docker containers.
+This Kubernetes (minikube) project uses TCP to send video streams between a client and server for object detection.
+The directory contains a server.py file and a client.py file along with their docker containers.
 
 The server.py file runs a server that generates a ball bouncing animation in a 500 by 500 frame. The server sends the video stram to the client using aiortc TCPSocketSignlaing. The server can be run as follows:
 
